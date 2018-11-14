@@ -44,7 +44,6 @@
 		FD85312F219C63480060FB2A = {
 			isa = PBXGroup;
 			children = (
-				FD853153219C6A460060FB2A /* Indbakke.swift */,
 				FD85313A219C63480060FB2A /* FlexicuV2 */,
 				FD853139219C63480060FB2A /* Products */,
 			);
@@ -61,6 +60,7 @@
 		FD85313A219C63480060FB2A /* FlexicuV2 */ = {
 			isa = PBXGroup;
 			children = (
+				FD853153219C6A460060FB2A /* Indbakke.swift */,
 				FD85313B219C63480060FB2A /* AppDelegate.swift */,
 				FD853151219C676C0060FB2A /* Udlej.swift */,
 				FD853141219C63480060FB2A /* Main.storyboard */,
