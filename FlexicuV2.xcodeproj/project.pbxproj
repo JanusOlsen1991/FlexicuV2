@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		FD85313C219C63480060FB2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD85313B219C63480060FB2A /* AppDelegate.swift */; };
-		FD85313E219C63480060FB2A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD85313D219C63480060FB2A /* FirstViewController.swift */; };
-		FD853140219C63480060FB2A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD85313F219C63480060FB2A /* SecondViewController.swift */; };
 		FD853143219C63480060FB2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD853141219C63480060FB2A /* Main.storyboard */; };
 		FD853145219C634B0060FB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD853144219C634B0060FB2A /* Assets.xcassets */; };
 		FD853148219C634B0060FB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD853146219C634B0060FB2A /* LaunchScreen.storyboard */; };
+		FD853150219C63C40060FB2A /* HovedMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD85314F219C63C40060FB2A /* HovedMenu.swift */; };
+		FD853152219C676C0060FB2A /* Udlej.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD853151219C676C0060FB2A /* Udlej.swift */; };
+		FD853154219C6A460060FB2A /* Indbakke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD853153219C6A460060FB2A /* Indbakke.swift */; };
+		FD853156219C6AC70060FB2A /* Lej.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD853155219C6AC70060FB2A /* Lej.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD853138219C63480060FB2A /* FlexicuV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexicuV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD85313B219C63480060FB2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD85313D219C63480060FB2A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FD85313F219C63480060FB2A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FD853142219C63480060FB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD853144219C634B0060FB2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD853147219C634B0060FB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD853149219C634B0060FB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD85314F219C63C40060FB2A /* HovedMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HovedMenu.swift; sourceTree = "<group>"; };
+		FD853151219C676C0060FB2A /* Udlej.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udlej.swift; sourceTree = "<group>"; };
+		FD853153219C6A460060FB2A /* Indbakke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indbakke.swift; sourceTree = "<group>"; };
+		FD853155219C6AC70060FB2A /* Lej.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lej.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		FD85312F219C63480060FB2A = {
 			isa = PBXGroup;
 			children = (
+				FD853153219C6A460060FB2A /* Indbakke.swift */,
 				FD85313A219C63480060FB2A /* FlexicuV2 */,
 				FD853139219C63480060FB2A /* Products */,
 			);
@@ -57,9 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				FD85313B219C63480060FB2A /* AppDelegate.swift */,
-				FD85313D219C63480060FB2A /* FirstViewController.swift */,
-				FD85313F219C63480060FB2A /* SecondViewController.swift */,
+				FD853151219C676C0060FB2A /* Udlej.swift */,
 				FD853141219C63480060FB2A /* Main.storyboard */,
+				FD853155219C6AC70060FB2A /* Lej.swift */,
+				FD85314F219C63C40060FB2A /* HovedMenu.swift */,
 				FD853144219C634B0060FB2A /* Assets.xcassets */,
 				FD853146219C634B0060FB2A /* LaunchScreen.storyboard */,
 				FD853149219C634B0060FB2A /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD853140219C63480060FB2A /* SecondViewController.swift in Sources */,
+				FD853150219C63C40060FB2A /* HovedMenu.swift in Sources */,
+				FD853152219C676C0060FB2A /* Udlej.swift in Sources */,
+				FD853154219C6A460060FB2A /* Indbakke.swift in Sources */,
+				FD853156219C6AC70060FB2A /* Lej.swift in Sources */,
 				FD85313C219C63480060FB2A /* AppDelegate.swift in Sources */,
-				FD85313E219C63480060FB2A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
