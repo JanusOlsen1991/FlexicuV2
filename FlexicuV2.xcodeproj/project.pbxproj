@@ -15,6 +15,7 @@
 		FD853152219C676C0060FB2A /* Udlej.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD853151219C676C0060FB2A /* Udlej.swift */; };
 		FD853154219C6A460060FB2A /* Indbakke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD853153219C6A460060FB2A /* Indbakke.swift */; };
 		FD853156219C6AC70060FB2A /* Lej.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD853155219C6AC70060FB2A /* Lej.swift */; };
+		FD853158219D5D160060FB2A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD853157219D5D160060FB2A /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FD853151219C676C0060FB2A /* Udlej.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udlej.swift; sourceTree = "<group>"; };
 		FD853153219C6A460060FB2A /* Indbakke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indbakke.swift; sourceTree = "<group>"; };
 		FD853155219C6AC70060FB2A /* Lej.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lej.swift; sourceTree = "<group>"; };
+		FD853157219D5D160060FB2A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				FD85313B219C63480060FB2A /* AppDelegate.swift */,
 				FD853151219C676C0060FB2A /* Udlej.swift */,
 				FD853141219C63480060FB2A /* Main.storyboard */,
+				FD853157219D5D160060FB2A /* Login.swift */,
 				FD853155219C6AC70060FB2A /* Lej.swift */,
 				FD85314F219C63C40060FB2A /* HovedMenu.swift */,
 				FD853144219C634B0060FB2A /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				FD853150219C63C40060FB2A /* HovedMenu.swift in Sources */,
 				FD853152219C676C0060FB2A /* Udlej.swift in Sources */,
 				FD853154219C6A460060FB2A /* Indbakke.swift in Sources */,
+				FD853158219D5D160060FB2A /* Login.swift in Sources */,
 				FD853156219C6AC70060FB2A /* Lej.swift in Sources */,
 				FD85313C219C63480060FB2A /* AppDelegate.swift in Sources */,
 			);
