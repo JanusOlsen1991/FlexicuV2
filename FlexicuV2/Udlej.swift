@@ -10,6 +10,7 @@ import UIKit
 
 class Udlej: UIViewController {
 
+    
     @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,8 @@ class Udlej: UIViewController {
     }
     
     @IBAction func klikMig(_ sender: Any) {
-        var v = "Hej Gunn"
+        let v = "Hej Gunn"
+        
         self.label.text = v
     }
     
