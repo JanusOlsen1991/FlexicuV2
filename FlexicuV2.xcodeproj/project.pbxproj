@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C9320EA219D5B8C00FFA1B4 /* NyBruger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9320E9219D5B8C00FFA1B4 /* NyBruger.swift */; };
 		FD85313C219C63480060FB2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD85313B219C63480060FB2A /* AppDelegate.swift */; };
 		FD853143219C63480060FB2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD853141219C63480060FB2A /* Main.storyboard */; };
 		FD853145219C634B0060FB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD853144219C634B0060FB2A /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C9320E9219D5B8C00FFA1B4 /* NyBruger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyBruger.swift; sourceTree = "<group>"; };
 		FD853138219C63480060FB2A /* FlexicuV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexicuV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD85313B219C63480060FB2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD853142219C63480060FB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				FD853153219C6A460060FB2A /* Indbakke.swift */,
 				FD85313B219C63480060FB2A /* AppDelegate.swift */,
 				FD853151219C676C0060FB2A /* Udlej.swift */,
+				0C9320E9219D5B8C00FFA1B4 /* NyBruger.swift */,
 				FD853141219C63480060FB2A /* Main.storyboard */,
 				FDDEA573219DA91500AC4DFF /* AlleMedarbejdereCVCell.swift */,
 				FD853159219D79660060FB2A /* UdlejedeMedarbejdereCollectionViewCell.swift */,
@@ -175,6 +178,7 @@
 			files = (
 				FDDEA572219DA6CD00AC4DFF /* LejetArbejdskraftCVCell.swift in Sources */,
 				FD853150219C63C40060FB2A /* HovedMenu.swift in Sources */,
+				0C9320EA219D5B8C00FFA1B4 /* NyBruger.swift in Sources */,
 				FD853152219C676C0060FB2A /* Udlej.swift in Sources */,
 				FDDEA57B219EBBA600AC4DFF /* Adresse.swift in Sources */,
 				FDDEA574219DA91500AC4DFF /* AlleMedarbejdereCVCell.swift in Sources */,
