@@ -10,6 +10,5 @@ import UIKit
 
 class UdlejedeMedarbejdereCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var navnLabel: UILabel!
-    @IBOutlet weak var lejeperiodeLabel: UILabel!
-    @IBOutlet weak var lejerLabel: UILabel!
+    
 }

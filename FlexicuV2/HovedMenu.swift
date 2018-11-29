@@ -57,24 +57,9 @@ class HovedMenu: UIViewController, UICollectionViewDelegate,UICollectionViewData
             
         }
         
-    }
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //TODO mangler at teste for om cellen er den sidste i rækken for så skal man kunne oprette
-        
-        //Test om det er lejede medarbejdere
-        if collectionView == CollectionView2 {
-            let viewController = storyboard?.instantiateViewController(withIdentifier: "")
-            self.navigationController?.pushViewController(viewController!, animated: true)
-        }
-            //Ellers vælg den for egne medarbejdere
-            //Gælder begge de andre collections
-        else {
-        let viewController = storyboard?.instantiateViewController(withIdentifier: "MineMedarbejdere")
-        self.navigationController?.pushViewController(viewController!, animated: true)
-    }
         
     }
-
+    
 
 
 
