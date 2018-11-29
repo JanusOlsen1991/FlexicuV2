@@ -14,9 +14,10 @@ class Medarbejder{
     var foedselsaar = 0
     var adresse: Adresse?
     var loen: Loen?
+    var id = ""
     
     
-    init(navn: String , foedselsaarr: Int , adresse: Adresse? , loen: Loen?){
+    init(navn: String , id: String , foedselsaarr: Int , adresse: Adresse? , loen: Loen?){
         self.navn = navn
         self.foedselsaar = foedselsaarr
         self.adresse = adresse
