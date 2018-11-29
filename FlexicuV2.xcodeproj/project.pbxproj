@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C9320EA219D5B8C00FFA1B4 /* NyBruger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9320E9219D5B8C00FFA1B4 /* NyBruger.swift */; };
+
+		37ADE51776CEDB6F6BF47B50 /* Pods_FlexicuV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E470830845ECA0C816C7D6 /* Pods_FlexicuV2.framework */; };
+
 		FD85313C219C63480060FB2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD85313B219C63480060FB2A /* AppDelegate.swift */; };
 		FD853143219C63480060FB2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD853141219C63480060FB2A /* Main.storyboard */; };
 		FD853145219C634B0060FB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD853144219C634B0060FB2A /* Assets.xcassets */; };
@@ -26,7 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C9320E9219D5B8C00FFA1B4 /* NyBruger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyBruger.swift; sourceTree = "<group>"; };
+
+		2CECF6850A69736D9F8CA1F7 /* Pods-FlexicuV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexicuV2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlexicuV2/Pods-FlexicuV2.debug.xcconfig"; sourceTree = "<group>"; };
+		733C068DA2AF9A351542E03E /* Pods-FlexicuV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexicuV2.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexicuV2/Pods-FlexicuV2.release.xcconfig"; sourceTree = "<group>"; };
+		D3E470830845ECA0C816C7D6 /* Pods_FlexicuV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexicuV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+
 		FD853138219C63480060FB2A /* FlexicuV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexicuV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD85313B219C63480060FB2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD853142219C63480060FB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,12 +57,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
+				37ADE51776CEDB6F6BF47B50 /* Pods_FlexicuV2.framework in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
+		643D298C597DC56DFFA821CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CECF6850A69736D9F8CA1F7 /* Pods-FlexicuV2.debug.xcconfig */,
+				733C068DA2AF9A351542E03E /* Pods-FlexicuV2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98F6B1BD39184FFD1E366132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E470830845ECA0C816C7D6 /* Pods_FlexicuV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+
 		FD85312F219C63480060FB2A = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +109,8 @@
 				FD853153219C6A460060FB2A /* Indbakke.swift */,
 				FD85313B219C63480060FB2A /* AppDelegate.swift */,
 				FD853151219C676C0060FB2A /* Udlej.swift */,
-				0C9320E9219D5B8C00FFA1B4 /* NyBruger.swift */,
-				FD853141219C63480060FB2A /* Main.storyboard */,
-				FDDEA573219DA91500AC4DFF /* AlleMedarbejdereCVCell.swift */,
-				FD853159219D79660060FB2A /* UdlejedeMedarbejdereCollectionViewCell.swift */,
+
+
 				FD853157219D5D160060FB2A /* Login.swift */,
 				FD853155219C6AC70060FB2A /* Lej.swift */,
 				FD85314F219C63C40060FB2A /* HovedMenu.swift */,
@@ -178,7 +204,6 @@
 			files = (
 				FDDEA572219DA6CD00AC4DFF /* LejetArbejdskraftCVCell.swift in Sources */,
 				FD853150219C63C40060FB2A /* HovedMenu.swift in Sources */,
-				0C9320EA219D5B8C00FFA1B4 /* NyBruger.swift in Sources */,
 				FD853152219C676C0060FB2A /* Udlej.swift in Sources */,
 				FDDEA57B219EBBA600AC4DFF /* Adresse.swift in Sources */,
 				FDDEA574219DA91500AC4DFF /* AlleMedarbejdereCVCell.swift in Sources */,
@@ -330,6 +355,9 @@
 		};
 		FD85314D219C634B0060FB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+
+			baseConfigurationReference = 2CECF6850A69736D9F8CA1F7 /* Pods-FlexicuV2.debug.xcconfig */;
+
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -348,6 +376,9 @@
 		};
 		FD85314E219C634B0060FB2A /* Release */ = {
 			isa = XCBuildConfiguration;
+
+			baseConfigurationReference = 733C068DA2AF9A351542E03E /* Pods-FlexicuV2.release.xcconfig */;
+
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

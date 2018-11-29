@@ -544,4 +544,9 @@
         <image name="flexicu_logo" width="500" height="124"/>
         <image name="second" width="30" height="30"/>
     </resources>
+
+    <inferredMetricsTieBreakers>
+        <segue reference="F1z-7S-wH2"/>
+    </inferredMetricsTieBreakers>
+
 </document>
